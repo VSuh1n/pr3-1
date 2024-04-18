@@ -1,0 +1,40 @@
+/* Стилі для контейнера з сірим фоном */
+.container {
+    background-color: #8d8080;
+    padding: 20px;
+    text-align: center;
+  }
+  
+ 
+  .block {
+    display: inline-block;
+    width: 200px;
+    padding: 20px;
+    border: 1px solid #000;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+    background-color: #f9d68e;
+    margin-left: 20px;
+    border-radius: 10px;
+  }
+  
+ 
+ .block h2 {
+    text-shadow: 2px -2px 0 #e3c36c, 2px 2px 0 #808080;
+    color:#e3c36c;
+     text-stroke: 1px black; 
+     -webkit-text-stroke: 1px black;
+    
+  }
+  
+  
+ .block::before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 20px;
+    background-color: rgb(9, 8, 7);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin-top: -20px;
+  }
+  
